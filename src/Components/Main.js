@@ -7,6 +7,7 @@ import WeatherData from "./WeatherData.js";
 import Error from "./Error.js";
 import DateTime from "./DateTime.js";
 import Tagline from "./Tagline.js";
+import Footer from "./Footer.js";
 import Context from "../Context.js";
 
 function Main() {
@@ -41,4 +42,11 @@ function Main() {
       {weather && <WeatherData />}  
       {error && <Error error={error} />}
         </Context.Provider>
-    
+        <Footer/>
+      </Content>
+      
+    </div>
+  );
+}
+
+export default Main;

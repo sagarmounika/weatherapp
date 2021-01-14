@@ -11,9 +11,9 @@ function Weathersearch() {
           autoComplete="off"
           name="location"
         />
-        <div className="weather-search__submit">
-          <button className="weather-search__button">&rarr;</button>
-        </div>
+        
+          <button type="submit" className="weather-search__button">&rarr;</button>
+        
       </form>
     </div>
   );
