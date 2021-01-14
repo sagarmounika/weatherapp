@@ -10,6 +10,7 @@ function Weathersearch() {
           className="weather-search__input"
           autoComplete="off"
           name="location"
+     placeholder="city name"
         />
         
           <button type="submit" className="weather-search__button">&rarr;</button>
